@@ -48,7 +48,7 @@ function Footer() {
                                     <div className="ca-footer widget-1">
                                         <div className="ca-ft-logo">
                                             <Link to="index-03.html">
-                                                <img src="assets/img/logo/ca-logo3.1.png" alt=""/>
+                                                <img width="140px" src="assets/img/logo/logo-2.png" alt=""/>
                                             </Link>
                                         </div>
                                         <div className="ca-ft-content ca-ft-content-3 mb-24">

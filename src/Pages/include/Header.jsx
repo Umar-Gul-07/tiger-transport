@@ -33,7 +33,7 @@ function Header() {
                             {/* ca-logo */}
                             <div className="ca-logo">
                                 <Link to="/">
-                                    <img src="assets/img/logo/ca-logo3.1.png" alt=""/>
+                                    <img width="90px" src="assets/img/logo/logo-2.png" alt=""/>
                                 </Link>
                             </div>
                         </div>
