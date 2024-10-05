@@ -1,316 +1,153 @@
 import React from "react";
-import { Helmet } from "react-helmet";
+import {Helmet} from "react-helmet";
 import PageTitle from "./include/PageTitle";
+import {Link} from "react-router-dom";
 
 const Services = ({title}) => {
-  return (
-    <div>
-      <Helmet>
-        <title>Services</title>
-      </Helmet>
+    return (
+        <div>
+            <Helmet>
+                <title>Services</title>
+            </Helmet>
 
-       <PageTitle title={title}/>
+            <PageTitle title={title}/>
 
-      <div className="ca-iner-servics pt-100 pb-100">
-        <div className="container">
-          <div className="row">
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.1.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">01</h4>
-                  </div>
+            <div className="ca-iner-servics pt-100 pb-100">
+                <div className="container">
+                    <div className="row">
+                        {/* single service box */}
+                        <div className="col-xl-4 col-md-6 mb-30">
+                            <div
+                                className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
+                                <div className="ca-about-icon">
+                                    <div className="ca-about-ic ca-ser-ic">
+                                        <img src="assets/img/icon/ca-iner-ser1.1.svg" alt=""/>
+                                    </div>
+                                    <div className="ca-num">
+                                        <h4 className="overly-num overly-num2">01</h4>
+                                    </div>
+                                </div>
+                                <div className="ca-service-content ca-service-content-iner">
+                                    <h4 className="ca-title fnw-700 pb-16 pt-32">
+                                        <Link to="service-single.html">Chiller Van</Link>
+                                    </h4>
+                                    <p className="pb-24">
+                                        A Chiller Van is specially designed to transport temperature-sensitive goods at
+                                        a controlled temperature. Ideal for perishable items like dairy, fruits, and
+                                        vegetables, it ensures freshness and quality during transit
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        {/* single service box */}
+                        <div className="col-xl-4 col-md-6 mb-30">
+                            <div
+                                className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
+                                <div className="ca-about-icon">
+                                    <div className="ca-about-ic ca-ser-ic">
+                                        <img src="assets/img/icon/ca-iner-ser1.2.svg" alt=""/>
+                                    </div>
+                                    <div className="ca-num">
+                                        <h4 className="overly-num overly-num2">02</h4>
+                                    </div>
+                                </div>
+                                <div className="ca-service-content ca-service-content-iner">
+                                    <h4 className="ca-title fnw-700 pb-16 pt-32">
+                                        <Link to="service-single.html">Freezer Van</Link>
+                                    </h4>
+                                    <p className="pb-24">
+                                        A Freezer Van provides a cold storage solution for transporting frozen goods.
+                                        Equipped with powerful refrigeration systems, it is perfect for delivering
+                                        frozen foods, ice cream, and other products that require sub-zero temperatures.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        {/* single service box */}
+                        <div className="col-xl-4 col-md-6 mb-30">
+                            <div
+                                className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
+                                <div className="ca-about-icon">
+                                    <div className="ca-about-ic ca-ser-ic">
+                                        <img src="assets/img/icon/ca-iner-ser1.3.svg" alt=""/>
+                                    </div>
+                                    <div className="ca-num">
+                                        <h4 className="overly-num overly-num2">03</h4>
+                                    </div>
+                                </div>
+                                <div className="ca-service-content ca-service-content-iner">
+                                    <h4 className="ca-title fnw-700 pb-16 pt-32">
+                                        <Link to="service-single.html">Chiller Truck</Link>
+                                    </h4>
+                                    <p className="pb-24">
+                                        Chiller Trucks are built for transporting larger shipments of
+                                        temperature-sensitive items. With advanced refrigeration technology, they
+                                        maintain a consistent cold environment, making them ideal for food distribution
+                                        and pharmaceuticals.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        {/* single service box */}
+                        <div className="col-xl-4 col-md-6 mb-30">
+                            <div
+                                className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
+                                <div className="ca-about-icon">
+                                    <div className="ca-about-ic ca-ser-ic">
+                                        <img src="assets/img/icon/ca-iner-ser1.4.svg" alt=""/>
+                                    </div>
+                                    <div className="ca-num">
+                                        <h4 className="overly-num overly-num2">04</h4>
+                                    </div>
+                                </div>
+                                <div className="ca-service-content ca-service-content-iner">
+                                    <h4 className="ca-title fnw-700 pb-16 pt-32">
+                                        <Link to="service-single.html">Freezer Truck</Link>
+                                    </h4>
+                                    <p className="pb-24">
+                                        A Freezer Truck is designed for bulk transportation of frozen items, ensuring
+                                        that products remain at optimal freezing temperatures. It’s essential for
+                                        businesses needing reliable transport for large quantities of frozen foods.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        {/* single service box */}
+                        <div className="col-xl-4 col-md-6 mb-30">
+                            <div
+                                className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
+                                <div className="ca-about-icon">
+                                    <div className="ca-about-ic ca-ser-ic">
+                                        <img src="assets/img/icon/ca-iner-ser1.5.svg" alt=""/>
+                                    </div>
+                                    <div className="ca-num">
+                                        <h4 className="overly-num overly-num2">05</h4>
+                                    </div>
+                                </div>
+                                <div className="ca-service-content ca-service-content-iner">
+                                    <h4 className="ca-title fnw-700 pb-16 pt-32">
+                                        <Link to="service-single.html">Cold Transport</Link>
+                                    </h4>
+                                    <p className="pb-24">
+                                        Cold Transport refers to the specialized logistics of moving refrigerated items
+                                        to ensure their safety and quality. This service is crucial for perishable goods
+                                        like food, flowers, and pharmaceuticals, maintaining the cold chain throughout
+                                        the journey.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Express Delivery Services</a>
-                  </h4>
-                  <p className="pb-24">
-                    We provide a comprehensive suite logistics services designed
-                    to streamline your supply <br /> chain &amp; meet your
-                    unique business needs.
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
             </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.2.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">02</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Supply Chain Management</a>
-                  </h4>
-                  <p className="pb-24">
-                    We offer state-of-the-art warehousing <br />
-                    solutions, ensuring your inventory is
-                    <br /> managed with precision and care.
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.3.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">03</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Project Cargo Handling</a>
-                  </h4>
-                  <p className="pb-24">
-                    Our freight forwarding services ensure
-                    <br /> smooth and efficient transportation of
-                    <br /> goods across borders, while our customs
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.4.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">04</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Warehousing Solutions</a>
-                  </h4>
-                  <p className="pb-24">
-                    Our domestic transport services guarantee <br />
-                    timely reliable deliveries within the country, <br />
-                    while our international shipping solutions
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.5.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">05</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">International Shipping</a>
-                  </h4>
-                  <p className="pb-24">
-                    Additionally, our supply chain management services optimize
-                    every step your logistics process, and our e-commerce
-                    fulfillment
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.6.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">06</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Cold Chain Logistics</a>
-                  </h4>
-                  <p className="pb-24">
-                    Whether it's handling project cargo with specialized
-                    requirements or maintaining <br />
-                    the integrity of temperature-sensitive
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.7.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">07</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Inventory Management</a>
-                  </h4>
-                  <p className="pb-24">
-                    Finally, our Reliable Last-Mile Delivery and Freight
-                    Consolidation Services ensure your
-                    <br /> goods reach their final destination{" "}
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.8.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">08</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Cold Chain Logistics</a>
-                  </h4>
-                  <p className="pb-24">
-                    Trust our Professional Logistics Consulting <br />
-                    to enhance your logistics strategy, &amp; rely on <br />
-                    our Efficient Reverse Logistics for seamless{" "}
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* single service box */}
-            <div className="col-xl-4 col-md-6 mb-30">
-              <div className="ca-ser-icon-box ca-ser-icon-box-2 fix p-relative cream-bg-3 z-index-1 p-32 br-7">
-                <div className="ca-about-icon">
-                  <div className="ca-about-ic ca-ser-ic">
-                    <img src="assets/img/icon/ca-iner-ser1.9.svg" alt="" />
-                  </div>
-                  <div className="ca-num">
-                    <h4 className="overly-num overly-num2">09</h4>
-                  </div>
-                </div>
-                <div className="ca-service-content ca-service-content-iner">
-                  <h4 className="ca-title fnw-700 pb-16 pt-32">
-                    <a href="service-single.html">Domestic Transport</a>
-                  </h4>
-                  <p className="pb-24">
-                    With Specialized Project Cargo Handling &amp;
-                    <br /> Cold Chain Logistics Services, we cater to
-                    <br /> specialized and temperature-sensitive
-                  </p>
-                  <a href="service-single.html" className="read-more">
-                    Read More{" "}
-                    <span>
-                      <i className="fa-solid fa-angle-right" />
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* pagination */}
-          <div className="row">
-            <div className="col-12 m-auto">
-              <div className="theme-pagination text-center">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <i className="fa-solid fa-angle-left" />
-                    </a>
-                  </li>
-                  <li>
-                    <a className="active" href="#">
-                      01
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">02</a>
-                  </li>
-                  <li>...</li>
-                  <li>
-                    <a href="#">12</a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa-solid fa-angle-right" />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 };
 
 export default Services;

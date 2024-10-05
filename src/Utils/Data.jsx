@@ -1,7 +1,9 @@
 const ContactInfo = {
-    contact_phone: "+923029677678",
-    contact_email: "zararanwar1234321@gmail.com",
-    address: "Abbottabad Khyber Pakhtun Khowa",
+    contact_phone: "+971 50 616 8540",
+    contact_email: "saeedanw443@gmail.com",
+    address: "2 Street 49/1\n" +
+        "Abu Dhabi\n" +
+        "UAE",
     facebook: "https://facebook.com",
     twitter: "https://facebook.com",
     linkedin: "https://facebook.com",
@@ -22,6 +24,13 @@ const teamMembers = [
    
 ];
 
+const data = [
+    {id:1,name:"car-1",image:"car-1",desc:"this is very good car"},
+    {id:2,name:"car-2",image:"car-2",desc:"this is very good car"},
+    {id:3,name:"car-3",image:"car-3",desc:"this is very good car"},
+    {id:4,name:"car-4",image:"car-4",desc:"this is very good car"},
+]
+
 const server_ip = 'http://localhost:800'
 
-export { ContactInfo, teamMembers, server_ip}
+export { ContactInfo, teamMembers, server_ip, data}

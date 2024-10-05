@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Services from "./Pages/Services";
+import RentVehicle from "./Pages/RentVehicle";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/about-us' element={<Base><About title="About Us" /></Base>} />
           <Route path='/contact-us' element={<Base><Contact title="Contact Us"/></Base>} />
           <Route path='/services' element={<Base><Services title="Our Services"/></Base>} />
+          <Route path='/rent-vehicle' element={<Base><RentVehicle title="Rent Vehicle"/></Base>} />
 
 
 
