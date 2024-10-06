@@ -38,22 +38,22 @@ const RentVehicle = ({title}) => {
                                             <Link to="#" className="ca-blog-meta ca-blog-meta-3">
                                                 <div className="ca-meta-icon">
                   <span>
-                    <img src="assets/img/icon/user-1.1.svg" alt=""/>
+                   <i className="fas fa-truck"></i>
                   </span>
                                                 </div>
-                                                <div className="ca-meta-title">
-                                                    <span>Henry Nicolls</span>
+                                                <div className="mx-2 ca-meta-title">
+                                                    <span>{item.category}</span>
                                                 </div>
                                             </Link>
                                             {/* blog meta box */}
                                             <Link to="#" className="ca-blog-meta ca-blog-meta-3">
                                                 <div className="ca-meta-icon">
                   <span>
-                    <img src="assets/img/icon/tag-1.1.svg" alt=""/>
+                                     <i className="fas fa-coins"></i>
                   </span>
                                                 </div>
-                                                <div className="ca-meta-title">
-                                                    <span>Transport &amp; Logistics</span>
+                                                <div className="mx-2 ca-meta-title">
+                                                    <span>{item.price}</span>
                                                 </div>
                                             </Link>
                                         </div>

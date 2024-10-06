@@ -468,24 +468,15 @@ function Home() {
         <section className="video-play-section">
             <div className="container">
                 <div className="ca-video-img br-7 p-relative z-index-1">
-                    <img
-                        className="w-100"
-                        src="/assets/img/service/v-play.png"
-                        alt=""
-                    />
-                    <a
-                        href="https://www.youtube.com/watch?v=HkYGxh1XUGQ"
-                        className="video-play-button popup-video"
-                    >
-                <span>
-                  <i className="fa-solid fa-play"/>
-                </span>
+                    <img className="w-100" src="/assets/img/service/v-play.png" alt="Play video"/>
+                    <a href="/assets/video/video-tigertransport.mp4" className="video-play-button" target="_blank"
+                       rel="noopener noreferrer">
+                        <span className="play-icon">▶</span>
                     </a>
-
-
                 </div>
             </div>
         </section>
+
 
         <div className="ca-working-section theme-black-bg-3 pt-390 pb-70">
             <div className="container">
@@ -787,8 +778,7 @@ function Home() {
         </section>
 
 
-    </>)
-        ;
+    </>);
 }
 
 export default Home;
